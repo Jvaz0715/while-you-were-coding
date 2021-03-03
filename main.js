@@ -79,8 +79,13 @@ console.log('##### Challenge 6 #####');
 // For the string 'Whoa, I am the best!', console out the letters individually,
 // but also capitalize the letters in the third word.
 let string6 = 'Whoa, I am the best!';
-for (let i = 0; i < string6.length; i++) {
+let string6Array = string6.split(' ');
+string6Array[2] = string6Array[2].toUpperCase();
+let string6ArrayJoin = string6Array.join(' ');
 
+for (let i = 0; i < string6ArrayJoin.length; i++) {
+    // how to capitalize and target just two char
+    console.log(string6ArrayJoin[i])
 }
 
 

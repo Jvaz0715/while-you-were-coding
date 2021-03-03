@@ -21,11 +21,14 @@ for (let counter = 0; counter < 21; counter ++){
 }
 
 
-
 console.log('##### Challenge 2 #####');
 // 2.
 //
 // Console out the numbers from 1-20. BACKWARDS.
+
+for (let counter = 20; counter >=1; counter --) {
+    console.log(counter);
+}
 
 
 

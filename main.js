@@ -108,6 +108,11 @@ const names = 'Alex|Mesuara|Brian|Chanel|Matt|Jeremy B.|Jose|Andy|Dustin|Joshua|
 
 // Don't print the pipes!
 
+let namesSeparated = names.split('|');
+for (let i = 0; i < namesSeparated.length; i++) {
+    console.log(`Here today is: ${namesSeparated[i][0]}`);
+}
+
 
 
 

@@ -65,6 +65,11 @@ console.log('##### Challenge 5 #####');
 // For the string 'Am I the best?', console out the letters individually, AND
 // UPPERCASED.
 let string5 = 'Am I the best?';
+let string5Upper = string5.toUpperCase();
+
+for (let i =0; i <string5Upper.length; i ++) {
+    console.log(string5Upper[i]);
+}
 
 
 

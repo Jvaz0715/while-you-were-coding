@@ -38,6 +38,10 @@ console.log('##### Challenge 3 #####');
 // For the string 'Boy howdy am I good at this!', console out the letters
 // individually.
 let string3 = 'Boy howdy am I good at this!';
+for (let i = 0; i <string3.length; i++) {
+    console.log(string3[i])
+}
+
 
 
 

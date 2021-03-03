@@ -14,6 +14,12 @@ console.log('##### Challenge 1 #####');
 // Console out the numbers from 1-20, but only if they're divisible by 3.
 // Hint: Use `if` and a modulus operation.
 
+for (let counter = 0; counter < 21; counter ++){
+    if (counter % 3 === 0) {
+        console.log(counter);
+    }
+}
+
 
 
 console.log('##### Challenge 2 #####');

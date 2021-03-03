@@ -82,6 +82,7 @@ let string6 = 'Whoa, I am the best!';
 
 
 
+
 console.log('##### Challenge 7 #####');
 // 7.
 //
@@ -89,7 +90,9 @@ console.log('##### Challenge 7 #####');
 //  individually, but backwards. That is, the first console log should be
 // `.`, followed by `s`, followed by `d`, and so on.
 let string7 = 'I am become death, destroyer of worlds.';
-
+for (let i = string7.length - 1; i >=0; i--) {
+    console.log(string7[i]);
+}
 
 
 console.log('##### Challenge 8 #####');

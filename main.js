@@ -79,7 +79,9 @@ console.log('##### Challenge 6 #####');
 // For the string 'Whoa, I am the best!', console out the letters individually,
 // but also capitalize the letters in the third word.
 let string6 = 'Whoa, I am the best!';
+for (let i = 0; i < string6.length; i++) {
 
+}
 
 
 
@@ -110,7 +112,7 @@ const names = 'Alex|Mesuara|Brian|Chanel|Matt|Jeremy B.|Jose|Andy|Dustin|Joshua|
 
 let namesSeparated = names.split('|');
 for (let i = 0; i < namesSeparated.length; i++) {
-    console.log(`Here today is: ${namesSeparated[i][0]}`);
+    console.log(`Here today is: ${namesSeparated[i]}`);
 }
 
 
